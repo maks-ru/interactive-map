@@ -1,0 +1,130 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+a {
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+svg {
+  display: inline;
+  transition: fill 0.3s ease;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.map-container {
+  position: relative;
+  width: 340px;
+  height: 490px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 22px 24px;
+}
+
+.district {
+  position: absolute;
+  cursor: pointer;
+}
+
+.map2 {
+  bottom: 179px;
+  left: 39px;
+}
+
+.map3 {
+  bottom: 169px;
+  left: 101px;
+}
+.map4 {
+  bottom: 79px;
+  left: 72px;
+}
+
+.map5 {
+  bottom: 60px;
+  left: 63px;
+}
+
+.map6 {
+  bottom: 80px;
+  right: 70px;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  height: 45px;
+  padding: 8px 0 8px 8px;
+  background: #f6f6f6;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.svg-map1:hover {
+  fill: #d27b7b;
+  stroke: red;
+}
+.svg-map2:hover {
+  fill: #ffde69;
+  stroke: red;
+}
+.svg-map3:hover {
+  fill: #be88c3;
+  stroke: red;
+}
+.svg-map4:hover {
+  fill: #759f52;
+  stroke: red;
+}
+.svg-map5:hover {
+  fill: #6f93e7;
+  stroke: red;
+}
+.svg-map6:hover {
+  fill: #ffc7c1;
+  stroke: red;
+}
+
+.map1:hover .popup {
+  display: block; /* Показываем при наведении */
+}
+.map2:hover .popup {
+  display: block; /* Показываем при наведении */
+}
+.map3:hover .popup {
+  display: block; /* Показываем при наведении */
+}
+.map4:hover .popup {
+  display: block; /* Показываем при наведении */
+}
+.map5:hover .popup {
+  display: block; /* Показываем при наведении */
+}
+.map6:hover .popup {
+  display: block; /* Показываем при наведении */
+}
